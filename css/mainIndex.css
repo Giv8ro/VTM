@@ -1,0 +1,190 @@
+@font-face {
+	font-family: "Reg";
+	src:url("../Portico Regular.otf");
+}
+
+@font-face {
+	font-family: "Port";
+	src:url("../Port.otf");
+}
+
+@font-face {
+	font-family: "Col";
+	src:url("../Coluna.ttf");
+}
+
+@font-face {
+	font-family: "Lite";
+	src:url("../Lite.ttf");
+}
+
+@font-face {
+	font-family: 'Bewlay';
+	src: url('../Bewlay.otf');
+}
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+div {
+	box-sizing: border-box;
+}
+
+header {
+	background: url(../img/first-bg.jpg) no-repeat center top / cover;
+}
+
+.container {
+	width: 990px;
+	padding: 0;
+	margin: 0 auto;
+}
+
+.logo {
+	margin-top: 50px;
+}
+
+nav {
+	float: right;
+	margin-top: 45px;
+}
+
+.menu {
+	padding: 0px;
+	display: block;
+}
+
+.menu li {
+	float: left;
+	display: block;
+	margin-right: 41px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.menu a {
+	color: #FF5252;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+.hello {
+	margin-top: 97px;
+	align-items: center;
+	padding-bottom: 150px;
+}
+h1 {
+	text-align: center;
+	color: #006561;
+	font-size: 60px;
+	font-family: "Col";
+	font-size: 100px;
+	letter-spacing: 5px;
+	border-bottom: 2px solid #006561;
+	margin-left: 280px;
+	margin-right: 280px;
+}
+
+.hello p {
+	text-align: center;
+	font-size: 50px;
+	color: #BF6F30;
+	background: #1D7471;
+	border-radius: 10px;
+	width: 400px;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	opacity: 0.7;
+}
+
+.hello a {
+	color: #BF6F30;
+	text-decoration: none;
+}
+
+h3 {
+	padding-top: 100px;
+	margin-top: 0px;
+	text-align: center;
+	font-family: 'Bewlay';
+	font-size: 30px;
+}
+
+.states {
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 70px;
+}
+
+.states a {
+	margin-right: 60px;
+	margin-top: 40px;
+	font-family: 'Bewlay';
+	font-weight: bold;
+	font-size: 30px;
+	text-decoration: none;
+	color: #27496C;
+}
+
+.fon2 {
+	background-color: #FFE0B2;
+}
+
+.info {
+	align-items: center;
+}
+
+.fon3 {
+	background-color: #B3E5FC;
+}
+
+.top h4 {
+	font-family: "Bewlay";
+	margin: 0 auto;
+	text-align: center;
+	font-size: 60px;
+	padding-top: 90px;
+}
+
+.top p {
+	text-align: center;
+	font-family: "Bewlay";
+	font-size: 40px;
+	margin: 0px;
+	padding-top: 30px;
+}
+
+.button {
+	align-items: center;
+	margin-top: 30px;
+}
+
+.button a {
+	text-decoration: none;
+}
+
+footer {
+	height: 250px;
+	background: linear-gradient(180deg, #B3E5FC, #EECFBA);
+}
+
+footer p {
+	text-align: right;
+	padding-top: 200px;
+	margin: 0px;
+}
+
+
+
+
+
+
+
+
+
+
